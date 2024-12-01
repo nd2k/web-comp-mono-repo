@@ -1,0 +1,13 @@
+{
+  "name": "web-comp-lib",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "dist/web-comp-lib.esm.js",
+  "exports": {
+    ".": "./dist/web-comp-lib.esm.js"
+  },
+  "scripts": {
+    "build": "tsc --build"
+  }
+}

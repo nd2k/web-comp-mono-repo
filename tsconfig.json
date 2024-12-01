@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "module": "ESNext",
+      "moduleResolution": "Node",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "baseUrl": "./",
+      "paths": {
+        "@web-comp-lib/*": ["packages/web-comp-lib/src/*"],
+        "@web-comp-tuto/*": ["packages/web-comp-tuto/src/*"]
+      }
+    },
+    "include": ["packages/**/*"]
+  }
+  

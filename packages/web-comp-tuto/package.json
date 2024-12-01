@@ -1,0 +1,13 @@
+{
+  "name": "web-comp-tuto",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "dependencies": {
+    "web-comp-lib": "workspace:*"
+  },
+  "scripts": {
+    "dev": "vite --mode application",
+    "build": "tsc --build"
+  }
+}

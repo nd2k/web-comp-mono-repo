@@ -1,0 +1,3 @@
+# Include all package from monorepo #
+packages:
+  - "packages/*"
